@@ -26,13 +26,13 @@ Solo Project
 
 **Write a paragraph summary of the current status of your project, what you hope to achieve during the intensive, how and why.**
 
-My current status on my project is needing proposal approval. I want to improve my Flask and database skills while creating this project. I feel like I was attempting to learn Django as another framework for BEW, but I need to improve my skills in Flask as well. Becoming familiar with multiple frameworks can open oppotunities for me to use the one that I am more comfortable with.
+My current status on my project is needing proposal approval. I want to improve my Flask and database skills while creating this project. I feel like I was attempting to learn Django as another framework for BEW, but I need to improve my skills in Flask as well. Becoming familiar with multiple frameworks can open oppotunities for me to use the one that I am more comfortable with. Considering building up on this project for the future too.
 
 ## Challenges I Anticipate
 
 **List out the challenges you anticipate for completing this project.**
 
-I anticipate that I may have trouble getting used to using flask after practicing Django for my previous projects. I want to review the concepts I learned to create a Flask app and create an app that could use databases to store a user's data (Achievements, friends, etc...) I may transform this into a bigger project, but I want to get used to Flask.
+I anticipate that I may have trouble getting used to using flask after practicing Django for my previous projects. I want to review the concepts I learned to create a Flask app and create an app that could use databases to store a user's data (Achievements, friends, etc...)
 
 ## Skateboard
 
@@ -45,7 +45,7 @@ I anticipate that I may have trouble getting used to using flask after practicin
 ## Bike
 **ONE additional features that get you closer to your idealized product. Examples: CRUD 2nd resource, add comments, API use, authentication, library use.**
 
-See how I can pull data from a database (pictures, text, etc...) and then I would have a way to grab outside data.
+See how I can pull data from a database (pictures, text, etc...) and then I would have a way to grab outside data. Possibly look into APIs that can help the site.
 
 ## Car
 **ONE additional feature.**
