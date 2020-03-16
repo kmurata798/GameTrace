@@ -57,13 +57,9 @@ User sign in/register for website
 
 **Each teammate must achieve 2 of 3 of their self-set personal achievement goals. If you're not on a team, delete the other teammate sections as needed.** 
 
-I want to get better at my time-management for this project, as well as solving the problems I face by finding solutions on the internet and friends.**
-
-### Teammate 1
-
-1. Goal 1
-1. Goal 2
-1. Goal 3
+1. I want to get better at my time-management for this project.
+2. Solving the problems I face by finding solutions on the internet and friends.
+3. Breaking my tasks into smaller parts so that I can manage my time.
 
 
 ## Wireframes
