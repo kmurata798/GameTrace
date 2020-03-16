@@ -69,7 +69,7 @@ I want to get better at my time-management for this project, as well as solving 
 ## Wireframes
 
 **Insert wireframe pictures here**
-![GameTrace 1](static/Gametracewireframe1.jpg)
+![GameTrace 1](static/GameTracewireframe1.jpg)
 ![GameTrace 2](static/Gametracewireframe2.jpg)
 ![GameTrace 3](static/Gametracewireframe3.jpg)
 
