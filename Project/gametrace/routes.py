@@ -2,7 +2,7 @@ from flask import Flask, request, render_template, url_for, flash, redirect
 from gametrace import app, db, bcrypt
 from gametrace.forms import RegistrationForm, LoginForm
 from gametrace.models import User, Post
-from flask_login import login_user, logout_user, current_user
+from flask_login import login_user, logout_user, current_user, login_required
 
 
 # Unique=True means that only one user can own the specific password, username, etc..
@@ -62,8 +62,9 @@ def login():
         # If user exists and password they entered is valid, we want to log the user in...
             login_user(user, remember=form.remember.data)
             # If user checks 'remember me' ==> remember=True, else ==> remember=False
-            return redirect(url_for('home'))
-            # Redirect user to home page
+            next_page = request.args.get('next')
+            return redirect(next_page) if next_page else redirect(url_for('home'))
+            # Redirect to the next page, if next page exists. If it is none or false, redirect to home page
         else:
             flash('Login unsuccessful. Please check the email and password', 'danger') 
         # We filter any users with the same email just entered...
