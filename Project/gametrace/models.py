@@ -1,8 +1,17 @@
 from datetime import datetime
-from gametrace import db
+from gametrace import db, login_manager
+from flask_login import UserMixin
+
+@login_manager.user_loader
+def load_user(user_id):
+    '''function with decorator, user loader. 
+    Need in order for the extension to know how to find a user by id'''
+    return User.query.get(int(user_id))
 
 
-class User(db.Model):
+
+class User(db.Model, UserMixin):
+    '''user model, holding all fields for a user'''
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(25), unique=True, nullable=False)
     email = db.Column(db.String(125), unique=True, nullable=False)
