@@ -1,11 +1,12 @@
 {% extends 'base.html' %}
 {% block content %}
+<!-- CREATE + UPDATE post template -->
 <div class="content-section">
     <form method="POST" action="">
         <!-- adding a CSRF token "cross sight request forgery token" -->
         {{ form.hidden_tag() }}
         <fieldset class="form-group">
-            <legend class="border-bottom mb-4">New Post</legend>
+            <legend class="border-bottom mb-4">{{ legend }}</legend>
             
             <!-- title field -->
             <div class="form-group">
