@@ -1,23 +1,27 @@
 body {
-    background: #3d3d3d;
-    color: #333333;
+    background: #131313;
+    color: #82dbd7;
+    /* Color for Post content text */
     margin-top: 5rem;
   }
-  
+  /* Headers/Titles */
   h1, h2, h3, h4, h5, h6 {
-    color: #00ffff;
+    color: #629e9e;
   }
   
+  /* Navbar */
   .bg-steel {
-    background-color: #318894;
+    background-color: #222222;
   }
   
+  /* Navbar tabnames */
   .site-header .navbar-nav .nav-link {
     color: #cbd5db;
   }
   
+  /* Navbar tabnames hover */
   .site-header .navbar-nav .nav-link:hover {
-    color: #ffffff;
+    color: #0db6b6;
   }
   
   .site-header .navbar-nav .nav-link.active {
@@ -25,17 +29,21 @@ body {
   }
   
   .content-section {
-    background: #ffffff;
+    background: #181818;
+    /* Post background color */
     padding: 10px 20px;
-    border: 1px solid #dddddd;
+    border: 1px solid #0a6969;
+    /* Post border color */
     border-radius: 3px;
     margin-bottom: 20px;
   }
   
+  /* Post Title */
   .article-title {
-    color: #444444;
+    color: #98adad;
   }
   
+  /* Post Title hover */
   a.article-title:hover {
     color: #9bbedb;
     text-decoration: none;
@@ -51,12 +59,14 @@ body {
     margin-right: 16px;
   }
   
+  /* Post line seperating (author + date_posted) and (Title + Contents) */
   .article-metadata {
     padding-bottom: 1px;
     margin-bottom: 4px;
-    border-bottom: 1px solid #e3e3e3
+    border-bottom: 1px solid #074646
   }
   
+  /* Author name hover */
   .article-metadata a:hover {
     color: #333;
     text-decoration: none;
@@ -77,4 +87,16 @@ body {
   
   .account-heading {
     font-size: 2.5rem;
+  }
+
+  /* Sidebar list items color */
+  .list-group-item {
+    background: #113a3a;
+    color: #9ac0c0;
+  }
+
+  /* Sidebar list items HOVER */
+  .list-group-item:hover {
+    color: #45b6b6;
+    text-decoration: none;
   }
