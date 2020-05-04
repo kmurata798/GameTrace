@@ -1,5 +1,5 @@
 # GameTrace Website Link (Heroku app):  https://gametrace.herokuapp.com
-![GameTrace image](static/GameTrace-Thumbnail.jpg)
+![GameTrace image](static/GameTrace-Thumbnail)
 
 ## Need to make changes to database to postgre ==> heroku keeps reseting database
 # INT-1.3 and INT-2.3 Spring Intensive
