@@ -27,7 +27,7 @@ Traverse into the this repository:
 $ cd /path/to/file/GameTrace
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+![example of development server](images/GameTrace-installment.png)
 
 ## Running the tests
 
